@@ -11,7 +11,7 @@ p = 0;
 r = 0;
 
 % get user input for the coefficients of the polynomial
-coeffs = input('Enter the coefficients of the polynomial in descending degree order using brackets(e.g. [1, 5, 8]): ');
+coeffs = input('Enter the coefficients of the polynomial in descending degree order using brackets (e.g., [1, 5, 8]): ');
 
 % convert the coefficient vector into a symbolic polynomial
 p = poly2sym(coeffs, x);
